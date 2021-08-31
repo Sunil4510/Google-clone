@@ -1,6 +1,4 @@
-
-const API_KEY = "AIzaSyBulL9pRHJ7hekpkpuDctjtUARsa0pOjrU";
+require("../.env");
+const API_KEY = process.env.key;
 
 export default API_KEY;
-
-//AIzaSyBulL9pRHJ7hekpkpuDctjtUARsa0pOjrU
